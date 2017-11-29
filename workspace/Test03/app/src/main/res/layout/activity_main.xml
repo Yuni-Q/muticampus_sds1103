@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.test03.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="일반 다이얼로그 띄우기"
+        android:id="@+id/btn_dialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜 다이얼로그 띄우기"
+        android:id="@+id/btn_date_dialog"
+        android:layout_above="@+id/btn_dialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간 다이얼로그 띄우기"
+        android:id="@+id/btn_time_dialog"
+        android:layout_above="@+id/btn_date_dialog"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="커스텀 다이얼로그 띄우기"
+        android:id="@+id/btn_custom_dialog"
+        android:layout_above="@id/btn_time_dialog"/>
+
+</RelativeLayout>

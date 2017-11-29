@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.test02.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="명시적 인텐트 날리는 버튼"
+        android:id="@+id/btn_intent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 날리는 버튼(다이얼)"
+        android:id="@+id/btn_dial" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 날리는 버튼(전화)"
+        android:id="@+id/btn_call"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 날리는 버튼(인터넷)"
+        android:id="@+id/btn_internet"/>
+
+</LinearLayout>
